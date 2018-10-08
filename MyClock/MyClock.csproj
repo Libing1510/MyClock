@@ -298,8 +298,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ChineseCalendar.cs" />
-    <Compile Include="Assets\TestData.cs" />
+    <Compile Include="Assets\Script\ChineseCalendar.cs" />
+    <Compile Include="Assets\Script\TestData.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
